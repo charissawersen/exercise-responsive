@@ -1,0 +1,41 @@
+.flex-container {
+  background-color: #551a8b;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.flex-item {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0rem 0rem 0rem;
+  font-size: 1rem;
+}
+.flex-container > h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.5rem;
+  }
+  .flex-item {
+    display: flex;
+    flex-flow: row;
+    padding: 0.7rem;
+  }
+  h1 {
+    padding-left: 27rem;
+    padding-right: 0;
+  }
+}

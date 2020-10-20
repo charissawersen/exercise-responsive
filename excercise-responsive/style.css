@@ -1,0 +1,21 @@
+h1, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: lightgray;
+    color: darkolivegreen;
+}
+.facts-container > div{
+    background-color: darkolivegreen;
+    color: white;
+    padding:  1rem;
+    margin: 1rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (min-width: 992px) {
+    .facts-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
