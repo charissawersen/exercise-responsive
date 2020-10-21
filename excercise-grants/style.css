@@ -2,7 +2,7 @@
   background-color: #551a8b;
   display: flex;
   flex-direction: column;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Alto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 1rem;
   color: rgba(255, 255, 255, 0.8);
@@ -25,17 +25,12 @@
   .flex-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
     align-items: center;
     height: 1.5rem;
+    justify-content: space-between;
   }
   .flex-item {
-    display: flex;
-    flex-flow: row;
-    padding: 0.7rem;
+    flex-direction: row;
+    padding: 0.5rem;
   }
-  h1 {
-    padding-left: 27rem;
-    padding-right: 0;
-  }
-}
+}   
