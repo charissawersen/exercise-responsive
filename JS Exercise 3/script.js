@@ -27,13 +27,16 @@ const account4 = new BankAccountwithFee(1000, .05, 25);
 const account5 = new BankAccountwithFee(750, .10, 15);
 const account6 = new BankAccountwithFee(1200, .05, 75);
 
-console.log(account);
-console.log(account.addInterest());
-console.log(account4);
-console.log(account4.applyFee()); 
-console.log(account1); 
-console.log(account1.addInterest());
-console.log(account5.applyFee());
+account6.addInterest();
+console.log(account6);
 
-console.log(account6); 
-console.log(account6.applyFee()); 
+// console.log(account);
+// console.log(account.addInterest());
+// console.log(account4);
+// console.log(account4.applyFee()); 
+// console.log(account1); 
+// console.log(account1.addInterest());
+// console.log(account5.applyFee());
+
+// console.log(account6); 
+// console.log(account6.applyFee()); 

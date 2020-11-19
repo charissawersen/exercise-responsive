@@ -14,3 +14,11 @@ function consoleAll (...everythingElse){
         console.log (everythingElse);
     }
 }
+
+class BankAccount {
+
+}
+
+class BankAccountwithFee extends BankAccount {
+    
+}
