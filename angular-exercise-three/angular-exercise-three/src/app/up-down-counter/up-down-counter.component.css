@@ -1,0 +1,29 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  border: 2px solid #508cf3 ;
+  /* margin: 10px; */
+  padding:10px;
+  margin-left: 75px;
+  height: auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+button {
+  color: #508cf3;
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color:transparent;
+  color: black
+
+}

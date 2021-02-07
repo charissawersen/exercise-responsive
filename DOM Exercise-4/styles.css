@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+form p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    width: 60px;
+}
+button {
+    width: 100px;
+    background-color: lightgreen;
+    height: 35px;
+}
+
+#coins {
+    text-align: center;
+}
+
+.penny {
+    
+}

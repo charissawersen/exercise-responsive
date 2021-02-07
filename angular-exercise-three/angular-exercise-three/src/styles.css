@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  font-family: 'Satisfy', cursive;
+  /* box-shadow: 0 0 20px #eee; */
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+  padding: 0%;
+  margin: 0%;
+}

@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.counter {
+  display: inline-block;
+  margin-left: 5%;
+  /* flex-direction: column; */
+}

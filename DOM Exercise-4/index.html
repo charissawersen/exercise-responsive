@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DOM Exercise 4</title>
+    <meta name="description" content="DOM excercise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="new-money" class="new-money">
+      <!-- input -->
+      <p>
+        <label
+          >How Many?
+          <input name="how-many" id="how-many" type="number" />
+        </label>
+      </p>
+      <!-- select -->
+      <p class="which-coin">
+      <label
+        >Which coin?
+        <select name="which-coin" id="coin-selector">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+      </label>
+    </p>
+      <button type="submit" id="submit">Make Money!</button>
+    </form>
+      <div id="coins"> COIN </div>
+      <div id="total">
+        <p id="total-amount">Coin Value: $0.00</p>
+      </div>
+      <script src="scripts.js" async defer></script>
+  </body>
+</html>
