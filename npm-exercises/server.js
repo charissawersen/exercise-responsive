@@ -1,7 +1,14 @@
+// seperate the students endpoint into its own file
+// import and use the students route in our app
+
+// create second endpoint called teachers
+// add to our GET method to search for teacher by their name
+
 // require the Express module
 const express = require("express");
 // creates an instance of an Express server 
 const app = express();
+
 // define the port
 const port = 3000;
 // run the server
